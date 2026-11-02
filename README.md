@@ -2,11 +2,11 @@
 
 zaFreshGram is a desktop Telegram client based on Telegram Desktop. It is a fork of [freshGram](https://github.com/Snowy-Fluffy/freshGram) with improvements from [ZaStoGram](https://cwdnvtsqdc.zapret.moe/zastogram/ZaStoGram_desktop):
 
-# Made for myself, so don’t expect fixes or other support.
+Made for myself, so don’t expect fixes or other support.
 
 Based on 5.2.9 beta | commit - daccd7e77579a4f946d30de35ea642a60d9231e1
 
-- Improved connection to Telegram servers, including WSS support.
+- WSS support.
 - MTProto improvements.
 - An updated WEB Proxy.
 - Material Design look and AyuGram features.
@@ -27,7 +27,7 @@ The Linux build runs inside a Docker container and produces a stripped binary. T
 The project depends on many git submodules, so clone it recursively:
 
 ```bash
-git clone --recursive <repository-url> zafreshgram
+git clone --recursive https://github.com/soufied/zafreshgram.git zafreshgram
 cd zafreshgram
 ```
 
