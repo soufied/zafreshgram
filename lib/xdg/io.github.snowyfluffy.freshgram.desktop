@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=zaFreshGram
+Comment=Telegram Desktop client with Material Design look and AyuGram features
+TryExec=zaFreshGram
+Exec=env DESKTOPINTEGRATION=1 zaFreshGram -- %U
+Icon=io.github.snowyfluffy.freshgram
+Terminal=false
+StartupWMClass=zaFreshGram
+Type=Application
+Categories=Chat;Network;InstantMessaging;Qt;
+MimeType=x-scheme-handler/tg;x-scheme-handler/tonsite;
+Keywords=tg;chat;im;messaging;messenger;sms;telegram;tdesktop;zafreshgram;
+Actions=quit;
+DBusActivatable=true
+SingleMainWindow=true
+X-GNOME-UsesNotifications=true
+X-GNOME-SingleWindow=true
+
+[Desktop Action quit]
+Exec=zaFreshGram -quit
+Name=Quit zaFreshGram
+Icon=application-exit

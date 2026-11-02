@@ -1,0 +1,75 @@
+/*
+This file is part of Telegram Desktop,
+the official desktop application for the Telegram messaging service.
+
+For license and copyright information please follow this link:
+https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
+*/
+using "boxes/boxes.style";
+
+passcodeHeaderFont: font(19px);
+passcodeHeaderHeight: 80px;
+passcodeInput: InputField(introPhone) {
+	textMargins: margins(1px, 27px, 1px, 6px);
+}
+passcodeSubmit: RoundButton(introNextButton) {
+	width: 225px;
+}
+passcodeSubmitSkip: 40px;
+passcodeSystemUnlock: IconButton(defaultIconButton) {
+	width: 32px;
+	height: 36px;
+	icon: icon{{ "menu/passcode_winhello", lightButtonFg }};
+	iconOver: icon{{ "menu/passcode_winhello", lightButtonFg }};
+	iconPosition: point(4px, 4px);
+	rippleAreaSize: 32px;
+	rippleAreaPosition: point(0px, 0px);
+	ripple: RippleAnimation(defaultRippleAnimation) {
+		color: lightButtonBgOver;
+	}
+}
+passcodeSystemTouchID: icon{{ "menu/passcode_finger", lightButtonFg }};
+passcodeSystemAppleWatch: icon{{ "menu/passcode_watch", lightButtonFg }};
+passcodeSystemSystemPwd: icon{{ "menu/permissions", lightButtonFg }};
+passcodeSystemUnlockLater: FlatLabel(defaultFlatLabel) {
+	align: align(top);
+	textFg: windowSubTextFg;
+}
+passcodeSystemUnlockSkip: 12px;
+passcodeInputWithButtons: InputField(passcodeInput) {
+	textMargins: margins(1px, 27px, 68px, 6px);
+	textBg: transparent;
+}
+passcodeEye: IconButton(passcodeSystemUnlock) {
+	icon: icon{{ "menu/show_in_chat", lightButtonFg }};
+	iconOver: icon{{ "menu/show_in_chat", lightButtonFg }};
+}
+passcodeEyeHidden: icon{{ "menu/stealth", lightButtonFg }};
+passcodeClockFont: font(56px semibold);
+passcodeDateFont: font(16px);
+passcodeClockSkip: 4px;
+passcodeClockBottom: 28px;
+passcodeCardPadding: margins(40px, 28px, 40px, 24px);
+passcodeCardMargin: 12px;
+passcodeCardPaddingMin: 16px;
+passcodeCardRadius: 12px;
+passcodeCardRadiusMaterial: 24px;
+passcodeLockSize: 72px;
+passcodeLockIcon: icon{{ "menu/lock-36x36", activeButtonFg }};
+passcodeLockSkip: 16px;
+passcodeTitleSkip: 18px;
+passcodeStatusFont: font(13px);
+passcodeStatusHeight: 40px;
+passcodeLogoutSkip: 14px;
+passcodeText: FlatLabel(defaultFlatLabel) {
+	align: align(top);
+	textFg: windowSubTextFg;
+	minWidth: 1px;
+}
+passcodeTextSkip: 14px;
+passcodePreviewHeight: 560px;
+unlockPasscodeIconPadding: margins(0px, 32px, 0px, 10px);
+unlockPasscodeTitlePadding: margins(0px, 0px, 0px, 12px);
+unlockPasscodeErrorPadding: margins(0px, 6px, 0px, 8px);
+termsPadding: margins(22px, 4px, 16px, 16px);
+termsAgePadding: margins(22px, 16px, 16px, 0px);
