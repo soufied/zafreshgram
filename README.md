@@ -1,6 +1,6 @@
 # zaFreshGram
 
-zaFreshGram is a desktop Telegram client based on Telegram Desktop. It is a fork of [freshGram](https://github.com/Snowy-Fluffy/freshGram) with improvements from [ZaStoGram](https://cwdnvtsqdc.zapret.moe/zastogram/ZaStoGram_desktop):
+zaFreshGram is a desktop Telegram client based on Telegram Desktop. It is a fork of [freshGram](https://github.com/Snowy-Fluffy/freshGram) with improvements from [ZaStoGram](https://cwdnvtsqdc.zapret.moe/zastogram/ZaStoGram_desktop).
 
 Made for myself, so don’t expect fixes or other support.
 
